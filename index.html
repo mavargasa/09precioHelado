@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora de Precio de Helado</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Calculadora de Precio de Helado</h1>
+
+    <label for="topping">Elige un topping:</label>
+    <select id="topping">
+        <option value="ninguno">Ninguno</option>
+        <option value="oreo">Oreo</option>
+        <option value="kitkat">KitKat</option>
+        <option value="brownie">Brownie</option>
+    </select>
+
+    <button onclick="calcularPrecio()">Calcular Precio</button>
+
+    <div id="resultado" class="pantallaOcualta">
+        <p>El precio del helado es: <span id="precio-helado"></span></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
